@@ -1,0 +1,21 @@
+How to run my http client and server
+
+1) Open a new terminal window and change directory to where the .c files are located
+
+2) at the top right of the terminal window hit the split window button
+
+3) Choose one terminal window to be the client and the other to be the server
+
+4) On the client window type "make http_client"
+
+5) On the server window type "make http_server"
+
+6) To run the client for a website on the Internet, type "./http_client [put optional -p for RTT output] www.example.com 80"
+
+7) To test my server, run "./http_server [port of your chosing >5000]" in the server window
+
+8) Once server is running, in the client window, 
+type "./http_client [put optional -p for RTT output] linux.wpi.edu/TMDG.html [your port number]"
+or witout a .html file type "./http_client [put optional -p for RTT output] linux.wpi.edu [your port number]"
+
+9) to terminate the server type contrl C in the server window
